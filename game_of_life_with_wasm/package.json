@@ -11,9 +11,10 @@
   "devDependencies": {
     "game-of-life": "../game-of-life/pkg",
     "vite": "^5.2.0",
-    "vite-plugin-wasm": "^3.3.0"
+    "vite-plugin-wasm": "^3.3.0",
+    "vite-plugin-top-level-await": "^1.4.1"
   },
   "dependencies": {
-    "vite-plugin-top-level-await": "^1.4.1"
+    "game-of-life": "../game-of-life/pkg"
   }
 }
