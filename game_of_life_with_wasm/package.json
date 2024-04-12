@@ -1,0 +1,19 @@
+{
+  "name": "game_of_life_with_wasm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "game-of-life": "../game-of-life/pkg",
+    "vite": "^5.2.0",
+    "vite-plugin-wasm": "^3.3.0"
+  },
+  "dependencies": {
+    "vite-plugin-top-level-await": "^1.4.1"
+  }
+}
